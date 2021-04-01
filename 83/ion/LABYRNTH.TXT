@@ -1,0 +1,87 @@
+LABYRINTH v1.0 
+October 16, 1999                                                   
+==============
+for ION on the TI-83 and TI-83+
+
+by badja
+http://move.to/badja
+badja@alphalink.com.au
+
+ION port by Andrew Magness
+
+How to Run
+==========
+Labyrinth requires ION to run.
+
+To run Labyrinth, send the LABYRNTH.83P or LABYRNTH.8XP file to your
+calculator. Start ION. Now you can run Labyrinth.
+
+
+About
+=====
+Labyrinth is a game in which you must find your way through 16 randomly-
+generated mazes. Each maze is rendered with a different graphical style, and
+there are two modes of play: maze and antimaze.
+
+
+How to Play
+===========
+At the title screen, use the UP and DOWN arrow keys to select the game mode
+(maze or antimaze), then press 2nd. Select "Maze" mode to start with.
+
+You will then be presented with a maze (or at least part of one) in which you
+are represented by a small black square. Use the arrow keys to move around.
+The maze is larger than the screen, so the display will scroll as you move
+towards the edge. The exit is always on the bottom edge of the maze, but not
+always in the same position. Find the exit and you're on to the next level.
+Each level is rendered with a different graphical style, which in later levels
+make the mazes more difficult.
+
+
+Antimaze Mode
+=============
+The idea of an antimaze is simple in theory, but confusing to play. In
+antimaze mode, you can move over maze walls, but you cannot move where there
+are no walls. This may seem horribly convoluted at first, but after a while
+you will get the hang of it and enjoy the challenge.
+
+
+Auto Save
+=========
+Labyrinth keeps track of your progress on each of the two modes (maze and
+antimaze). If you end a game (by pressing CLEAR), you will be taken to the
+start of the same level when you next play that mode. However, the maze will
+be a different randomly-generated one.
+
+On title screen, the current level for the selcted game mode is displayed. To
+restart a game, select the mode and press DEL.
+
+
+Summary of Keys
+===============
+
+Title screen:
+----------------------------------------------------
+Up/Down     Select game mode (maze or antimaze)
+2nd         Start game
+CLEAR       Exit game
+DEL         Restart currently selected game
+
+In game:
+----------------------------------------------------
+Arrow keys  Move around
+CLEAR       Save current level and end game
+
+
+About the Mazes
+===============
+Each level is a 15 x 16 maze with only one solution. There are no "islands",
+so you cannot travel in a circuit and there is only one path between any two
+points. In maze mode, all the walls are connected to each other. The original
+maze-generation code was written in Basic and is copyright 1979 by Creative
+Computing, Morristown, NJ.
+
+
+
+Send any comments, ideas, or other feedback to badja@alphalink.com.au
+Send questions about ION port to AndrewM@ev1.net
